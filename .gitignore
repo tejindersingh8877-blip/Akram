@@ -1,0 +1,52 @@
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# Ignore uploaded files (keep directory structure)
+uploads/services/*
+!uploads/services/.gitkeep
+uploads/documents/*
+!uploads/documents/.gitkeep
+
+# Ignore configuration files with sensitive data
+# config/db.php
+
+# Ignore node modules if using any build tools
+node_modules/
+npm-debug.log
+
+# Ignore composer files if used
+vendor/
+composer.lock
+
+# Ignore cache directories
+cache/
+tmp/
+temp/
+
+# Ignore database backups
+*.sql.backup
+*.sql.gz
+database/backup/
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore OS generated files
+.DS_Store
+ehthumbs.db
+Desktop.ini
